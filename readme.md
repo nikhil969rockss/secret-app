@@ -1,27 +1,56 @@
-# This a secret App where you can add your secret
+# 🔐 Secret App
 
-## What feature implemented
+A secure, minimal web application where users can **anonymously submit and store secrets**. Built with Express.js and EJS on the frontend, this project demonstrates robust session-based authentication, secure password storage, and Google OAuth login using Passport.js.
 
-- Express and node as a Backend server and EJS for front-end
+---
 
-- You get to register and login button both is powered by passport js
+## ✨ Features
 
-- Google Sign in button as well
+- ⚙️ **Backend**: Node.js + Express.js
+- 🖥️ **Frontend**: EJS Templating
+- 🔐 **Authentication**:
+  - Local (email & password)
+  - Google Sign-In (OAuth 2.0 via Passport.js)
+- 🔒 **Password Security**:
+  - Passwords are hashed using `bcrypt`
+  - Sessions handled via `express-session`
+- 🧠 **Database**: PostgreSQL (stores user data and secrets)
 
-- used sessions and stored password in well hashed(bcrypt) form in the data base if user register by email and password
+---
 
-- Used postgres as a dataBase to store your secrets
+## 🛠 Tech Stack
 
-commands to install 
+| Layer        | Technology                          |
+|--------------|--------------------------------------|
+| Backend      | Node.js, Express.js                 |
+| Frontend     | EJS                                 |
+| Auth         | Passport.js (Local + Google OAuth) |
+| Security     | bcrypt, express-session             |
+| Database     | PostgreSQL                          |
+| Hosting      | *(self-hosted or platform of choice)* |
 
-```
+---
+
+## 📦 Installation & Setup
+
+### Step 1: Clone the Repository
+
+```bash
 git clone git@github.com:nikhil969rockss/secret-app.git
+cd secret-app
 ```
-
-run npm command to install the dependencies
+### Step 2: Install dependencies
 
 ```
 npm install
 ```
 
---FELL FREE TO CHANGE THE CODE AND STYLE IT BETTER
+### Step 3: Start the server
+
+```
+npm start
+```
+
+
+
+

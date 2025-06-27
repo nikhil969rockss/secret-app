@@ -27,7 +27,7 @@ A secure, minimal web application where users can **anonymously submit and store
 | Auth         | Passport.js (Local + Google OAuth) |
 | Security     | bcrypt, express-session             |
 | Database     | PostgreSQL                          |
-| Hosting      | *(self-hosted or platform of choice)* |
+
 
 ---
 
